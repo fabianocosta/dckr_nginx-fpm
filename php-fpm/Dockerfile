@@ -30,12 +30,6 @@ RUN apt-get install -y --no-install-recommends zlib1g-dev libicu-dev g++ \
 # Clear package lists
 RUN rm -rf /var/lib/apt/lists/*
 
-# Permissions
-#RUN chown -R www-data:www-data /app/api
-#RUN chmod u+rwx,g+rx,o+rx /app/api
-#RUN find /app/api -type d -exec chmod u+rwx,g+rx,o+rx {} +
-#RUN find /app/api -type f -exec chmod u+rw,g+rw,o+r {} +
-
 CMD ["php-fpm"]
 
 EXPOSE 9000
