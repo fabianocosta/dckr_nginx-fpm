@@ -1,0 +1,25 @@
+2019/09/16 20:22:40 [alert] 1#1: worker process 6 exited on signal 9
+2019/09/27 20:33:39 [alert] 1#1: worker process 6 exited on signal 9
+2019/12/13 19:48:38 [alert] 1#1: worker process 6 exited on signal 9
+2019/12/16 19:25:21 [emerg] 1#1: directive "root" is not terminated by ";" in /etc/nginx/conf.d/api.conf:6
+2019/12/16 19:25:23 [emerg] 1#1: directive "root" is not terminated by ";" in /etc/nginx/conf.d/api.conf:6
+2019/12/16 19:25:26 [emerg] 1#1: directive "root" is not terminated by ";" in /etc/nginx/conf.d/api.conf:6
+2019/12/16 19:25:28 [emerg] 1#1: directive "root" is not terminated by ";" in /etc/nginx/conf.d/api.conf:6
+2019/12/16 19:25:53 [error] 6#6: *1 directory index of "/var/www/html/public/" is forbidden, client: 172.19.0.1, server: api.local, request: "GET / HTTP/1.1", host: "api.local:8080"
+2019/12/16 19:43:48 [error] 6#6: *2 directory index of "/var/www/html/public/" is forbidden, client: 172.19.0.1, server: api.local, request: "GET / HTTP/1.1", host: "api.local:8080"
+2019/12/16 19:43:49 [error] 6#6: *2 directory index of "/var/www/html/public/" is forbidden, client: 172.19.0.1, server: api.local, request: "GET / HTTP/1.1", host: "api.local:8080"
+2019/12/18 13:46:21 [error] 6#6: *1 open() "/app/index.html" failed (2: No such file or directory), client: 172.19.0.1, server: risk.local, request: "GET /robots.txt HTTP/1.1", host: "risk.local:8080"
+2019/12/18 13:46:21 [error] 6#6: *2 directory index of "/app/" is forbidden, client: 172.19.0.1, server: risk.local, request: "GET / HTTP/1.1", host: "risk.local:8080"
+2019/12/18 13:46:23 [error] 6#6: *2 open() "/app/index.html" failed (2: No such file or directory), client: 172.19.0.1, server: risk.local, request: "GET /favicon.ico HTTP/1.1", host: "risk.local:8080", referrer: "http://risk.local:8080/"
+2019/12/18 14:31:00 [emerg] 1#1: directive "include" is not terminated by ";" in /etc/nginx/conf.d/api.conf:2
+2019/12/18 14:31:03 [emerg] 1#1: directive "include" is not terminated by ";" in /etc/nginx/conf.d/api.conf:2
+2019/12/18 14:31:05 [emerg] 1#1: directive "include" is not terminated by ";" in /etc/nginx/conf.d/api.conf:2
+2019/12/18 14:31:08 [emerg] 1#1: directive "include" is not terminated by ";" in /etc/nginx/conf.d/api.conf:2
+2019/12/19 18:13:52 [emerg] 1#1: "try_files" directive is duplicate in /etc/nginx/conf.d/api.conf:20
+2019/12/19 18:13:58 [emerg] 1#1: "try_files" directive is duplicate in /etc/nginx/conf.d/api.conf:20
+2019/12/19 18:14:01 [emerg] 1#1: "try_files" directive is duplicate in /etc/nginx/conf.d/api.conf:20
+2019/12/19 18:14:04 [emerg] 1#1: "try_files" directive is duplicate in /etc/nginx/conf.d/api.conf:20
+2019/12/19 18:14:06 [emerg] 1#1: "try_files" directive is duplicate in /etc/nginx/conf.d/api.conf:20
+2019/12/19 18:14:09 [emerg] 1#1: "try_files" directive is duplicate in /etc/nginx/conf.d/api.conf:20
+2019/12/19 18:14:15 [emerg] 1#1: "try_files" directive is duplicate in /etc/nginx/conf.d/api.conf:20
+2020/01/10 18:34:22 [notice] 20#20: signal process started
