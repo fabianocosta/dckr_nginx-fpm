@@ -1,6 +1,6 @@
 FROM php:7.3-fpm
  
-MAINTAINER Fabiano Costa <fabiano@dcide.com.br>
+MAINTAINER Fabiano Costa <fabiano@tco.inf.br>
 
 ARG DEBIAN_FRONTEND=noninteractive
 
